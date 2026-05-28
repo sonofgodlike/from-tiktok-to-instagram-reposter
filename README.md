@@ -27,11 +27,13 @@ bashsudo pacman -S python python-pip tk ffmpeg
 On Ubuntu/Debian:
 bashsudo apt install python3 python3-pip python3-tk ffmpeg
 2. Clone the repo
-bashgit clone https://github.com/sonofgodlike/tiktok-to-reels.git
+bashgit clone
+https://github.com/sonofgodlike/from-tiktok-to-instagram-reposter.git
+
 cd tiktok-to-reels
-3. Install Python dependencies
+4. Install Python dependencies
 bashpip install yt-dlp instagrapi moviepy==2.2.1 --break-system-packages
-4. Run the app
+5. Run the app
 bashpython3 app.py
 The app will auto-install any missing dependencies on first run.
 
