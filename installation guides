@@ -1,0 +1,27 @@
+TikTok → Instagram Reels Poster
+Paste a TikTok link. It downloads the video and posts it as an Instagram Reel automatically.
+
+Install & Run
+Arch
+bashsudo pacman -S python python-pip tk ffmpeg
+pip install yt-dlp instagrapi moviepy==2.2.1 --break-system-packages
+cd ~/Downloads/TikTok_to_Reels_Arch
+python3 app.py
+Ubuntu / Debian
+bashsudo apt install python3 python3-pip python3-tk ffmpeg
+pip3 install yt-dlp instagrapi moviepy==2.2.1 --break-system-packages
+cd ~/Downloads/TikTok_to_Reels_Ubuntu
+python3 app.py
+Windows
+winget install ffmpeg
+pip install yt-dlp instagrapi moviepy==2.2.1
+cd C:\Users\YourName\Downloads\TikTok_to_Reels_Windows
+Then double-click START.bat or run:
+python app.py
+
+Replace YourName with your actual Windows username.
+If you unzipped somewhere else, just cd to that folder instead.
+
+
+Built With
+yt-dlp · instagrapi · KDE Connect
