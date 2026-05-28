@@ -1,0 +1,16 @@
+OKAYYYYYY TO OPEN THIS FILE FOLLOW THE STEPS BELOW 
+
+
+
+
+Open your file manager.
+Open the downloads folder.
+Open this file or the file contaning the "app".
+Right click on the blank space and "click open in terminal"
+Now while in terminal input this. python3 app.py
+
+
+Then fill out the information and boom your done 
+
+
+CREDITS: Sonofgodlike, Issacphatom69.
