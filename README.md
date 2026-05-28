@@ -22,6 +22,18 @@ cd ~/Downloads/TikTok_to_Reels_Ubuntu
 python3 app.py
 ```
 
+**macOS**
+```bash
+brew install python ffmpeg
+pip3 install yt-dlp instagrapi moviepy==2.2.1
+cd ~/Downloads/TikTok_to_Reels_macOS
+python3 app.py
+```
+> Don't have Homebrew? Install it first:
+> ```bash
+> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+> ```
+
 **Windows**
 ```
 winget install ffmpeg
@@ -32,9 +44,7 @@ Then double-click `START.bat` or run:
 ```
 python app.py
 ```
-
-> Replace `YourName` with your actual Windows username.  
-> If you unzipped somewhere else, just `cd` to that folder instead.
+> Replace `YourName` with your actual Windows username.
 
 ---
 
